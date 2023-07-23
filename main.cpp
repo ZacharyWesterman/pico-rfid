@@ -1,5 +1,6 @@
 #include "pico/stdlib.h"
 #include <cstdio>
+#include "btstack.h"
 
 int main()
 {
