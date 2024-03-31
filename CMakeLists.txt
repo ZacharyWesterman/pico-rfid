@@ -25,11 +25,12 @@ pico_sdk_init()
 # rest of your project
 
 add_executable(rfid
-	main.cpp
+	main.c
 )
 
 target_include_directories(rfid PRIVATE
 	${CMAKE_SOURCE_DIR}
+	${CMAKE_CURRENT_LIST_DIR}
 )
 
 # Add pico_stdlib library which aggregates commonly used features
@@ -39,6 +40,7 @@ target_link_libraries(
 	hardware_i2c
 	hardware_spi
 	pico_btstack_ble
+	pico_btstack_classic
 	pico_btstack_cyw43
 	pico_cyw43_arch_none
 )
