@@ -1,2 +1,2 @@
 # pico-rfid
-An RFID scanner that can be used anywhere a Bluetooth keyboard can
+An RFID scanner that spits out the scanned text as a USB keyboard.

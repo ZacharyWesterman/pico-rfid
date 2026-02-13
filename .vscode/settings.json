@@ -1,0 +1,33 @@
+{
+	"editor.formatOnSave": true,
+	"files.insertFinalNewline": true,
+	"python.analysis.inlayHints.variableTypes": true,
+	"python.analysis.inlayHints.functionReturnTypes": true,
+	"python.analysis.typeCheckingMode": "standard",
+	"editor.insertSpaces": false,
+	"autopep8.args": [
+		"--ignore=W191,E266",
+		"--max-line-length",
+		"256"
+	],
+	"[python]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "always"
+		}
+	},
+	// "python.languageServer": "Pylance",
+	"python.analysis.diagnosticSeverityOverrides": {
+		"reportMissingModuleSource": "none",
+		"reportShadowedImports": "none"
+	},
+	"python.terminal.activateEnvironment": false,
+	"python.languageServer": "Pylance",
+	"python.analysis.extraPaths": [
+		"/home/zachary/.vscode/extensions/wmerkens.vscode-circuitpython-v2-0.3.4/boards/0x239A/0x80F4",
+		"/home/zachary/.vscode/extensions/wmerkens.vscode-circuitpython-v2-0.3.4/stubs",
+		"/home/zachary/.config/Code/User/globalStorage/wmerkens.vscode-circuitpython-v2/bundle/20260212/adafruit-circuitpython-bundle-py-20260212/lib"
+	],
+	"circuitpython.board.version": null,
+	"circuitpython.board.vid": "0x239A",
+	"circuitpython.board.pid": "0x80F4"
+}
