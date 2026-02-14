@@ -42,7 +42,7 @@ try:
 
                 LED.set(WHITE)
 
-                keyboard_layout.write("%02x%02x%02x%02x" % (raw_uid[0], raw_uid[1], raw_uid[2], raw_uid[3]))
+                keyboard_layout.write("%02x%02x%02x%02x\n\n\n" % (raw_uid[0], raw_uid[1], raw_uid[2], raw_uid[3]), 0.05)
 
                 time.sleep(2)
                 LED.set(BLACK)
