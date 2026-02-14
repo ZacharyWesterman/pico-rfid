@@ -25,7 +25,8 @@
 	"python.analysis.extraPaths": [
 		"/home/zachary/.vscode/extensions/wmerkens.vscode-circuitpython-v2-0.3.4/boards/0x239A/0x80F4",
 		"/home/zachary/.vscode/extensions/wmerkens.vscode-circuitpython-v2-0.3.4/stubs",
-		"/home/zachary/.config/Code/User/globalStorage/wmerkens.vscode-circuitpython-v2/bundle/20260212/adafruit-circuitpython-bundle-py-20260212/lib"
+		"/home/zachary/.config/Code/User/globalStorage/wmerkens.vscode-circuitpython-v2/bundle/20260212/adafruit-circuitpython-bundle-py-20260212/lib",
+		"${workspaceRoot}/lib"
 	],
 	"circuitpython.board.version": null,
 	"circuitpython.board.vid": "0x239A",
